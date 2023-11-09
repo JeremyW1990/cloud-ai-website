@@ -5,71 +5,71 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 const teamData = [
     {
-        image: 'team-01',
-        name: 'Sr Janen Sara',
-        designation: 'Sr Product Designer',
-        location: 'CO Miego, AD, USA', 
-        description: 'Yes, I am a product designer. I have a passion for product design.',
+        image: 'jeremy_wang',
+        name: 'Jeremy Wang',
+        designation: 'Founder',
+        location: 'Austin, TX, USA', 
+        description: 'Solo-entrepreneur behind Cloud-AI.',
         socialNetwork: [
             {
                 icon: <FiFacebook />,
-                url: '#'
+                url: 'https://www.facebook.com/Jeremywang1990'
             },
             {
                 icon: <FiTwitter />,
-                url: '#'
+                url: 'https://twitter.com/Jeremyw_90'
             },
             {
                 icon: <FiInstagram />,
-                url: '#'
+                url: 'https://www.instagram.com/jerw_austin/'
             },
         ]
        
     },
-    {
-        image: 'team-02',
-        name: 'Afsana Nila',
-        designation: 'App Developer',
-        location: 'Bangladesh', 
-        description: 'Yes, I am a product designer. I have a passion for product design.',
-        socialNetwork: [
-            {
-                icon: <FiFacebook />,
-                url: '#'
-            },
-            {
-                icon: <FiTwitter />,
-                url: '#'
-            },
-            {
-                icon: <FiLinkedin />,
-                url: '#'
-            },
-        ]
+    // {
+    //     image: 'team-02',
+    //     name: 'Afsana Nila',
+    //     designation: 'App Developer',
+    //     location: 'Bangladesh', 
+    //     description: 'Yes, I am a product designer. I have a passion for product design.',
+    //     socialNetwork: [
+    //         {
+    //             icon: <FiFacebook />,
+    //             url: '#'
+    //         },
+    //         {
+    //             icon: <FiTwitter />,
+    //             url: '#'
+    //         },
+    //         {
+    //             icon: <FiLinkedin />,
+    //             url: '#'
+    //         },
+    //     ]
       
-    },
-    {
-        image: 'team-03',
-        name: 'Afanan Sifa',
-        designation: 'Accounts Manager',
-        location: 'Poland', 
-        description: 'Yes, I am a product designer. I have a passion for product design.',
-        socialNetwork: [
-            {
-                icon: <FiFacebook />,
-                url: '#'
-            },
-            {
-                icon: <FiTwitter />,
-                url: '#'
-            },
-            {
-                icon: <FiInstagram />,
-                url: '#'
-            },
-        ]
+    // },
+    // {
+    //     image: 'team-03',
+    //     name: 'Afanan Sifa',
+    //     designation: 'Accounts Manager',
+    //     location: 'Poland', 
+    //     description: 'Yes, I am a product designer. I have a passion for product design.',
+    //     socialNetwork: [
+    //         {
+    //             icon: <FiFacebook />,
+    //             url: '#'
+    //         },
+    //         {
+    //             icon: <FiTwitter />,
+    //             url: '#'
+    //         },
+    //         {
+    //             icon: <FiInstagram />,
+    //             url: '#'
+    //         },
+    //     ]
         
-    },
+    // },
 ]
 
 const TeamTwo = ({column , teamStyle}) => {
@@ -97,7 +97,7 @@ const TeamTwo = ({column , teamStyle}) => {
 
                                     <ul className="social-icon social-default icon-naked mt--20" >
                                         {data.socialNetwork.map((social, index) =>
-                                            <li key={index}><a href={`${social.url}`}>{social.icon}</a></li>
+                                            <li key={index}><a href={`${social.url}`} target="_blank" rel="noopener noreferrer">{social.icon}</a></li>
                                         )}
                                     </ul>
                                 </figcaption>

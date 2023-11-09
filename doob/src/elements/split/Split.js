@@ -15,7 +15,7 @@ const Split = () => {
             <SEO title="Split Text || Doob - React Business  Template" />
             <Layout>
                 <BreadcrumbOne 
-                    title="The Easiest Way To Create Website <br /> Quick Copy & Make site."
+                    title="Cloud AI overlook your repository and infrastructure status <br /> Quick Copy & Make site."
                     rootUrl="/"
                     parentUrl="Home"
                     currentUrl="Split Text"
@@ -43,7 +43,7 @@ const Split = () => {
 
                     <Separator />
                     {/* Start Elements Area  */}
-                    <div className="rwt-split-area rn-section-gap">
+                    {/* <div className="rwt-split-area rn-section-gap">
                         <div className="wrapper">
                             <div className="row">
                                 <div className="col-lg-12 mb--40">
@@ -58,12 +58,12 @@ const Split = () => {
                             </div>
                             <SlipTwo />
                         </div>
-                    </div>
+                    </div> */}
                     {/* End Elements Area  */}
 
                     <Separator />
                     {/* Start Elements Area  */}
-                    <div className="rwt-split-area rn-section-gap">
+                    {/* <div className="rwt-split-area rn-section-gap">
                         <div className="wrapper">
                             <div className="row">
                                 <div className="col-lg-12 mb--40">
@@ -78,13 +78,13 @@ const Split = () => {
                             </div>
                             <SlipThree />
                         </div>
-                    </div>
+                    </div> */}
                     {/* End Elements Area  */}
 
                     <Separator />
                     
                     {/* Start Elements Area  */}
-                    <div className="rwt-split-area rn-section-gap">
+                    {/* <div className="rwt-split-area rn-section-gap">
                         <div className="wrapper">
                             <div className="row">
                                 <div className="col-lg-12 mb--40">
@@ -99,7 +99,7 @@ const Split = () => {
                             </div>
                             <SlipFour />
                         </div>
-                    </div>
+                    </div> */}
                     {/* End Elements Area  */}
 
 

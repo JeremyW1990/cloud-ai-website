@@ -14,12 +14,12 @@ const Timeline = () => {
         <>
             <SEO title="Timeline || Doob - React Business  Template" />
             <Layout>
-                <BreadcrumbOne 
+                {/* <BreadcrumbOne 
                     title="The Easiest Way To Create Website <br /> Quick Copy & Make site."
                     rootUrl="/"
                     parentUrl="Home"
                     currentUrl="Timeline"
-                />
+                /> */}
 
                 <div className="main-content">
 
@@ -31,8 +31,8 @@ const Timeline = () => {
                                         <SectionTitle
                                             textAlign = "text-center"
                                             radiusRounded = ""
-                                            subtitle = "Timeline"
-                                            title = "Working Process."
+                                            subtitle = "Feature"
+                                            // title = "What Cloud-AI can do."
                                         />
                                 </div>
                             </div>
@@ -49,7 +49,7 @@ const Timeline = () => {
 
 
                     <Separator />
-
+{/* 
                     <div className="rwt-timeline-area rn-section-gap">
                         <div className="container">
                             <div className="row">
@@ -111,7 +111,7 @@ const Timeline = () => {
                             </div>
                         </div>
                     </div>
-                    <Separator />
+                    <Separator /> */}
 
 
 

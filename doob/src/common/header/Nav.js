@@ -5,7 +5,7 @@ const Nav = () => {
     return (
         <ul className="mainmenu">
             <li className="has-droupdown"><Link to="/business-consulting-2">Home</Link>
-                <ul className="submenu">
+                {/* <ul className="submenu">
                     <li><Link to="/business-consulting">Business Consulting</Link></li>
                     <li><Link to="/business-consulting-2">Business Consulting 02</Link></li>
                     <li><Link to="/corporate">Corporate</Link></li>
@@ -24,12 +24,12 @@ const Nav = () => {
                     <li><Link to="/international-consulting">International Consulting</Link></li>
                     <li><Link to="/startup">Startup</Link></li>
                     <li><Link to="/web-agency">Web Agency</Link></li>
-                </ul>
+                </ul> */}
             </li>
             
 
             <li className="with-megamenu"><Link to="/split">Feature</Link>
-                <div className="rn-megamenu">
+                {/* <div className="rn-megamenu">
                     <div className="wrapper">
                         <div className="row row--0">
                             <div className="col-lg-3 single-mega-item">
@@ -77,19 +77,19 @@ const Nav = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </li>
 
-            <li className="has-droupdown"><Link to="#">Demo</Link>
+            {/* <li className="has-droupdown"><Link to="#">Demo</Link>
                 <ul className="submenu">
                     <li><Link to="/blog-grid">Blog Grid</Link></li>
                     <li><Link to="/blog-grid-sidebar">Blog Grid Sidebar</Link></li>
                     <li><Link to="/blog-list-view">Blog List View</Link></li>
                     <li><Link to="/blog-list-sidebar">Blog List View Sidebar</Link></li>
                 </ul>
-            </li>
+            </li> */}
 
-            <li className="has-droupdown"><Link to="#">Blank</Link>
+            {/* <li className="has-droupdown"><Link to="#">Blank</Link>
                 <ul className="submenu">
                     <li><Link to="/portfolio">Portfolio Default</Link></li>
                     <li><Link to="/portfolio-three-column">Portfolio Three Column</Link></li>
@@ -97,9 +97,9 @@ const Nav = () => {
                     <li><Link to="/portfolio-grid-layout">Portfolio Grid Layout</Link></li>
                     <li><Link to="/portfolio-box-layout">Portfolio Box Layout</Link></li>
                 </ul>
-            </li>
+            </li> */}
 
-            <li><Link to="/about-us">About</Link></li>
+            <li><Link to="/about-us">Team</Link></li>
 
             <li className="has-droupdown"><Link to="/contact">Contact</Link></li>
         </ul>
