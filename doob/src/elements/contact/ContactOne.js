@@ -43,7 +43,7 @@ const ContactOne = () => {
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Our Location</h4>
-                                        <p>Austin, TX <br />78660</p>
+                                        <p>Austin, Texas, USA <br />78660</p>
                                     </div>
                                 </div>
                             </div>
