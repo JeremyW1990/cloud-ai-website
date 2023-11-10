@@ -55,7 +55,7 @@ const BusinessConsulting2 = () => {
                                     </h1>
                                     <p className="description">Cloud-AI helps to deploy and manage your cloud infrastructure via natural language.</p>
                                     <div className="button-group">
-                                        <a className="btn-default btn-medium round btn-icon" target="_blank" href="https://themeforest.net/checkout/from_item/33571911?license=regular">Purchase Now <i className="icon"><FiArrowRight /></i></a>
+                                        <a className="btn-default btn-medium round btn-icon" target="_blank" href="https://themeforest.net/checkout/from_item/33571911?license=regular">Contact US<i className="icon"><FiArrowRight /></i></a>
                                         <Link className="btn-default btn-medium btn-border round btn-icon" to="#">Contact Us <i className="icon"><FiArrowRight /></i></Link>
                                     </div>
                                 </div>
