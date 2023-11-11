@@ -16,7 +16,7 @@ const Copyright = () => {
                     </div>
                     <div className="col-lg-6 col-md-4 col-sm-12 col-12">
                         <div className="copyright-right text-center text-md-end">
-                            <p className="copyright-text">© Cloud AI {new Date().getFullYear()}</p>
+                            <p className="copyright-text">© Doob {new Date().getFullYear()}</p>
                         </div>
                     </div>
                 </div>

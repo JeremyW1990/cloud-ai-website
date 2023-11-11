@@ -33,7 +33,7 @@ const HomeDefault = () => {
     
     return (
         <>
-            <SEO title="Cloud AI" />
+            <SEO title="Business Consulting" />
             <main className="page-wrapper">
                 <HeaderTopNews />
                 <HeaderOne  btnStyle="btn-small round btn-icon" HeaderSTyle="header-transparent" />
@@ -44,11 +44,11 @@ const HomeDefault = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="inner text-center">
-                                    <span className="subtitle">Cloud AI</span>
-                                    <h1 className="title display-one">IDE for <span>DevOps</span>.</h1>
-                                    <p className="description">An AI-powered IDE to help DevOps to manage cloud infrastructure based on natural language</p>
+                                    <span className="subtitle">DIGITAL CONSULTING AGENCY</span>
+                                    <h1 className="title display-one">Unique Business <span>Consulting</span>.</h1>
+                                    <p className="description">We help our clients succeed by creating brand identities, digital experiences, and print materials.</p>
                                     <div className="button-group">
-                                        <a className="btn-default btn-medium round btn-icon" target="_blank" href="https://themeforest.net/checkout/from_item/33571911?license=regular">Demo <i className="icon"><FiArrowRight /></i></a>
+                                        <a className="btn-default btn-medium round btn-icon" target="_blank" href="https://themeforest.net/checkout/from_item/33571911?license=regular">Purchase Now <i className="icon"><FiArrowRight /></i></a>
                                         <Link className="btn-default btn-medium btn-border round btn-icon" to="#">Contact Us <i className="icon"><FiArrowRight /></i></Link>
                                     </div>
                                 </div>

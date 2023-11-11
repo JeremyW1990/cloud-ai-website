@@ -33,12 +33,12 @@ const Marketing = () => {
                         <div className="row">
                             <div className="col-lg-8 order-2 order-lg-1 mt_md--40 mt_sm--40">
                                 <div className="inner text-start">
-                                    <h1 className="title theme-gradient display-two">An AI-Powered tool<br /> For Cloud{" "}
+                                    <h1 className="title theme-gradient display-two">Marketing Agency <br /> For {" "}
                                         <Typed
                                             strings={[
-                                                "Provider",
-                                                "Engineer",
-                                                "Architect",
+                                                "Freelancer.",
+                                                "Developer.",
+                                                "Startup.",
                                             ]}
                                             typeSpeed={80}
                                             backSpeed={5}
@@ -46,7 +46,7 @@ const Marketing = () => {
                                             loop
                                         />
                                     </h1>
-                                    <p className="description">Cloud-AI helps to manange cloud infrastructure in an innovative way.</p>
+                                    <p className="description">We help our clients succeed by creating brand identities, digital experiences, and print materials.</p>
                                     <div className="button-group">
                                         <Link className="btn-default btn-medium btn-border round btn-icon" to="#">New Customer <i className="icon"><FiArrowRight /></i></Link>
                                         <Link className="btn-default btn-medium btn-border round btn-icon" to="#">Contact Us <i className="icon"><FiArrowRight /></i></Link>

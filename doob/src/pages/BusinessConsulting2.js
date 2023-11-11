@@ -17,10 +17,6 @@ import Separator from "../elements/separator/Separator";
 import Mission from "../elements/about/Mission";
 import BlogList from "../components/blog/itemProp/BlogList";
 import BlogClassicData from '../data/blog/BlogList.json';
-import Timeline from '../elements/timeline/Timeline';
-import CopyrightTwo from '../common/footer/CopyrightTwo';
-import Contact from '../elements/contact/Contact';
-import { Link as ScrollLink } from 'react-scroll';
 var BlogListData = BlogClassicData.slice(0, 3);
 
 
@@ -31,7 +27,7 @@ const BusinessConsulting2 = () => {
         <>
             <SEO title="Business Consulting 02" />
             <main className="page-wrapper">
-                {/* <HeaderTopNews /> */}
+                <HeaderTopNews />
                 <HeaderTwo btnStyle="round" HeaderSTyle="header-not-transparent" />
 
                 {/* Start Slider Area  */}
@@ -40,13 +36,13 @@ const BusinessConsulting2 = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="inner text-center">
-                                    <span className="subtitle">CLOUD AI</span>
-                                    <h1 className="title theme-gradient display-two">An AI-Powered tool for <br />Cloud {" "}
+                                    <span className="subtitle">DIGITAL CONSULTING AGENCY</span>
+                                    <h1 className="title theme-gradient display-two">Unique Business <br /> {" "}
                                         <Typed
                                             strings={[
-                                                "Architect",
-                                                "Engineer",
-                                                "Provider",
+                                                "Consulting.",
+                                                "Finance.",
+                                                "Agency.",
                                             ]}
                                             typeSpeed={80}
                                             backSpeed={5}
@@ -54,20 +50,10 @@ const BusinessConsulting2 = () => {
                                             loop
                                         />
                                     </h1>
-                                    <p className="description">Cloud-AI helps to deploy and manage your cloud infrastructure via natural language.</p>
+                                    <p className="description">We help our clients succeed by creating brand identities, digital experiences, and print materials.</p>
                                     <div className="button-group">
-                                        <a className="btn-default btn-medium round btn-icon" target="_blank" href="https://themeforest.net/checkout/from_item/33571911?license=regular">Feature<i className="icon"><FiArrowRight /></i></a>
-                                        {/* <Link className="btn-default btn-medium btn-border round btn-icon" to="#contact-section">Contact Us <i className="icon"><FiArrowRight /></i></Link> */}
-                                        <ScrollLink 
-                                            to="contact" 
-                                            spy={true} 
-                                            smooth={true} 
-                                            offset={-70} 
-                                            duration={500} 
-                                            className="btn-default btn-medium btn-border round btn-icon"
-                                        >
-                                            Contact Us <i className="icon"><FiArrowRight /></i>
-                                        </ScrollLink>
+                                        <a className="btn-default btn-medium round btn-icon" target="_blank" href="https://themeforest.net/checkout/from_item/33571911?license=regular">Purchase Now <i className="icon"><FiArrowRight /></i></a>
+                                        <Link className="btn-default btn-medium btn-border round btn-icon" to="#">Contact Us <i className="icon"><FiArrowRight /></i></Link>
                                     </div>
                                 </div>
                             </div>
@@ -77,17 +63,14 @@ const BusinessConsulting2 = () => {
                 {/* End Slider Area  */}
 
                 <Separator />
-                <div id="feature">
-                    <Timeline />
-                </div>
 
                 {/* Start About Area  */}
-                {/* <AboutOne />                             */}
+                <AboutOne />                            
                 {/* End About Area  */}
 
                 <Separator />                            
                 {/* Start Service Area  */}
-                {/* <div className="rn-service-area rn-section-gap">
+                <div className="rn-service-area rn-section-gap">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -105,48 +88,46 @@ const BusinessConsulting2 = () => {
                             textAlign = "text-start"
                         />
                     </div>
-                </div> */}
+                </div>
                 {/* End Service Area  */}
 
 
                 {/* Start Call To Action Area  */}
-                {/* <div className="rwt-callto-action-area">
+                <div className="rwt-callto-action-area">
                     <div className="wrapper">
                         <CalltoActionFive />
                     </div>
-                </div> */}
+                </div>
                 {/* End Call To Action Area  */}
 
 
-                {/* Start Team Area  */}
-                <div id="team">
-                    <div className="rwt-team-area rn-section-gap">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-lg-12">
-                                        <SectionTitle
-                                            textAlign = "text-center"
-                                            radiusRounded = ""
-                                            subtitle = "My Team"
-                                            // title = "Our Company Experts."
-                                            description = "Seeking passionate minds to innovate cloud's future with Cloud-AI."
-                                        />
-                                </div>
+                 {/* Start Team Area  */}
+                 <div className="rwt-team-area rn-section-gap">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12">
+                                    <SectionTitle
+                                        textAlign = "text-center"
+                                        radiusRounded = ""
+                                        subtitle = "Our Experts."
+                                        title = "Our Company Experts."
+                                        description = "We provide company and finance service for <br /> startups and company business."
+                                    />
                             </div>
-                            <TeamTwo column="col-lg-4 col-md-6 col-12" teamStyle="team-style-default style-two" />
                         </div>
+                        <TeamTwo column="col-lg-4 col-md-6 col-12" teamStyle="team-style-default style-two" />
                     </div>
                 </div>
                 {/* End Team Area  */}
                 <Separator /> 
                 {/* Start Mission Area   */}
-                {/* <Mission />                     */}
+                <Mission />                    
                 {/* Start Mission Area  */}
 
 
-                {/* <Separator />                                */}
+                <Separator />                               
                 {/* Start Testimonial Area  */}
-                {/* <div className="rwt-testimonial-area rn-section-gap">
+                <div className="rwt-testimonial-area rn-section-gap">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -161,11 +142,11 @@ const BusinessConsulting2 = () => {
                         </div>
                         <TestimonialThree teamStyle="" />
                     </div>
-                </div> */}
+                </div>
                 {/* End Testimonial Area  */}
 
-                {/* <Separator />    */}
-                {/* <div className="blog-area rn-section-gap">
+                <Separator />   
+                <div className="blog-area rn-section-gap">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -186,12 +167,9 @@ const BusinessConsulting2 = () => {
                             ))}
                         </div>
                     </div>
-                </div> */}
-
-                <div id="contact">
-                    <Contact />
                 </div>
-                <CopyrightTwo />
+                <FooterTwo />
+                <Copyright />
             </main>
         </>
     )

@@ -19,16 +19,16 @@ const CopyrightTwo = () => {
                     <div className="col-lg-4 col-md-5 mt_sm--20">
                         <div className="copyright-center text-center">
                             <ul className="social-icon social-default color-lessdark justify-content-center">
-                                <li><a href="https://www.facebook.com/Jeremywang1990" target="_blank" rel="noopener noreferrer"><FiFacebook /></a></li>
-                                <li><a href="https://twitter.com/Jeremyw_90" target="_blank" rel="noopener noreferrer"><FiTwitter /></a></li>
-                                <li><a href="https://www.instagram.com/jerw_austin/" target="_blank" rel="noopener noreferrer"><FiInstagram /></a></li>
-                                <li><a href="https://www.linkedin.com/in/jeremyw90/" target="_blank" rel="noopener noreferrer"><FiLinkedin /></a></li>
+                                <li><Link to="facebook.com"><FiFacebook /></Link></li>
+                                <li><Link to="twitter.com"><FiTwitter /></Link></li>
+                                <li><Link to="instagram.com"><FiInstagram /></Link></li>
+                                <li><Link to="linkdin.com"><FiLinkedin /></Link></li>
                             </ul>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-12 col-sm-12 col-12 mt_md--20 mt_sm--20">
                         <div className="copyright-right text-center text-lg-right">
-                            <p className="copyright-text">Copyright All rights reserved © {new Date().getFullYear()} Cloud AI.</p>
+                            <p className="copyright-text">Copyright All rights reserved © {new Date().getFullYear()} Doob React Template.</p>
                         </div>
                     </div>
                 </div>

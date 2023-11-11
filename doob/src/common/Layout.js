@@ -8,11 +8,11 @@ const Layout = ({children}) => {
     return (
         <>
             <main className="page-wrapper">
-                {/* <HeaderTopNews /> */}
-                {/* <HeaderOne btnStyle="btn-small round btn-icon" HeaderSTyle="header-not-transparent" /> */}
+                <HeaderTopNews />
+                <HeaderOne btnStyle="btn-small round btn-icon" HeaderSTyle="header-not-transparent" />
                 {children}
-                {/* <FooterTwo />
-                <Copyright /> */}
+                <FooterTwo />
+                <Copyright />
             </main>
         </>
     )
