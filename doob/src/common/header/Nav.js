@@ -1,5 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import { Link as ScrollLink } from 'react-scroll';
+
 
 const Nav = () => {
     return (
@@ -28,7 +30,7 @@ const Nav = () => {
             </li>
             
 
-            <li className="with-megamenu"><Link to="/split">Feature</Link>
+            <li className="with-megamenu"><ScrollLink to="feature" style={{cursor: "pointer"}}>Feature</ScrollLink>
                 {/* <div className="rn-megamenu">
                     <div className="wrapper">
                         <div className="row row--0">
@@ -99,9 +101,13 @@ const Nav = () => {
                 </ul>
             </li> */}
 
-            <li><Link to="/about-us">Team</Link></li>
+            {/* <li><Link to="/about-us">Team</Link></li> */}
+            <li><ScrollLink to="team" style={{cursor: "pointer"}}>Team</ScrollLink></li>
 
-            <li className="has-droupdown"><Link to="/contact">Contact</Link></li>
+
+            {/* <li className="has-droupdown"><Link to="/contact">Contact</Link></li> */}
+            <li><ScrollLink to="contact" style={{cursor: "pointer"}}>Contact</ScrollLink></li>
+
         </ul>
     )
 }

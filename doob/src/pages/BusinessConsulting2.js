@@ -20,6 +20,7 @@ import BlogClassicData from '../data/blog/BlogList.json';
 import Timeline from '../elements/timeline/Timeline';
 import CopyrightTwo from '../common/footer/CopyrightTwo';
 import Contact from '../elements/contact/Contact';
+import { Link as ScrollLink } from 'react-scroll';
 var BlogListData = BlogClassicData.slice(0, 3);
 
 
@@ -55,8 +56,18 @@ const BusinessConsulting2 = () => {
                                     </h1>
                                     <p className="description">Cloud-AI helps to deploy and manage your cloud infrastructure via natural language.</p>
                                     <div className="button-group">
-                                        <a className="btn-default btn-medium round btn-icon" target="_blank" href="https://themeforest.net/checkout/from_item/33571911?license=regular">Contact US<i className="icon"><FiArrowRight /></i></a>
-                                        <Link className="btn-default btn-medium btn-border round btn-icon" to="#">Contact Us <i className="icon"><FiArrowRight /></i></Link>
+                                        <a className="btn-default btn-medium round btn-icon" target="_blank" href="https://themeforest.net/checkout/from_item/33571911?license=regular">Feature<i className="icon"><FiArrowRight /></i></a>
+                                        {/* <Link className="btn-default btn-medium btn-border round btn-icon" to="#contact-section">Contact Us <i className="icon"><FiArrowRight /></i></Link> */}
+                                        <ScrollLink 
+                                            to="contact" 
+                                            spy={true} 
+                                            smooth={true} 
+                                            offset={-70} 
+                                            duration={500} 
+                                            className="btn-default btn-medium btn-border round btn-icon"
+                                        >
+                                            Contact Us <i className="icon"><FiArrowRight /></i>
+                                        </ScrollLink>
                                     </div>
                                 </div>
                             </div>
@@ -66,8 +77,9 @@ const BusinessConsulting2 = () => {
                 {/* End Slider Area  */}
 
                 <Separator />
-
-                <Timeline />
+                <div id="feature">
+                    <Timeline />
+                </div>
 
                 {/* Start About Area  */}
                 {/* <AboutOne />                             */}
@@ -107,20 +119,22 @@ const BusinessConsulting2 = () => {
 
 
                 {/* Start Team Area  */}
-                 <div className="rwt-team-area rn-section-gap">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                    <SectionTitle
-                                        textAlign = "text-center"
-                                        radiusRounded = ""
-                                        subtitle = "My Team"
-                                        // title = "Our Company Experts."
-                                        description = "Seeking passionate minds to innovate cloud's future with Cloud-AI."
-                                    />
+                <div id="team">
+                    <div className="rwt-team-area rn-section-gap">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-lg-12">
+                                        <SectionTitle
+                                            textAlign = "text-center"
+                                            radiusRounded = ""
+                                            subtitle = "My Team"
+                                            // title = "Our Company Experts."
+                                            description = "Seeking passionate minds to innovate cloud's future with Cloud-AI."
+                                        />
+                                </div>
                             </div>
+                            <TeamTwo column="col-lg-4 col-md-6 col-12" teamStyle="team-style-default style-two" />
                         </div>
-                        <TeamTwo column="col-lg-4 col-md-6 col-12" teamStyle="team-style-default style-two" />
                     </div>
                 </div>
                 {/* End Team Area  */}
@@ -174,7 +188,9 @@ const BusinessConsulting2 = () => {
                     </div>
                 </div> */}
 
-                <Contact />
+                <div id="contact">
+                    <Contact />
+                </div>
                 <CopyrightTwo />
             </main>
         </>
