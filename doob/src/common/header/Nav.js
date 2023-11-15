@@ -6,7 +6,7 @@ import { Link as ScrollLink } from 'react-scroll';
 const Nav = () => {
     return (
         <ul className="mainmenu">
-            <li className="has-droupdown"><Link to="/business-consulting-2">Home</Link>
+            <li className="has-droupdown"><ScrollLink to="business-consulting-2" style={{cursor: "pointer"}} spy={true} smooth={true} offset={-70} duration={500}>Home</ScrollLink>
                 {/* <ul className="submenu">
                     <li><Link to="/business-consulting">Business Consulting</Link></li>
                     <li><Link to="/business-consulting-2">Business Consulting 02</Link></li>
@@ -30,7 +30,7 @@ const Nav = () => {
             </li>
             
 
-            <li className="with-megamenu"><ScrollLink to="feature" style={{cursor: "pointer"}}>Feature</ScrollLink>
+            <li className="with-megamenu"><ScrollLink to="feature" style={{cursor: "pointer"}} spy={true} smooth={true} offset={-70} duration={500}>Feature</ScrollLink>
                 {/* <div className="rn-megamenu">
                     <div className="wrapper">
                         <div className="row row--0">
@@ -102,11 +102,11 @@ const Nav = () => {
             </li> */}
 
             {/* <li><Link to="/about-us">Team</Link></li> */}
-            <li><ScrollLink to="team" style={{cursor: "pointer"}}>Team</ScrollLink></li>
+            <li><ScrollLink to="team" style={{cursor: "pointer"}} spy={true} smooth={true} offset={-70} duration={500}>Team</ScrollLink></li>
 
 
             {/* <li className="has-droupdown"><Link to="/contact">Contact</Link></li> */}
-            <li><ScrollLink to="contact" style={{cursor: "pointer"}}>Contact</ScrollLink></li>
+            <li><ScrollLink to="contact" style={{cursor: "pointer"}} spy={true} smooth={true} offset={-70} duration={500}>Contact</ScrollLink></li>
 
         </ul>
     )

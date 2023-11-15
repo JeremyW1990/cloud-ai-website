@@ -35,45 +35,59 @@ const BusinessConsulting2 = () => {
                 <HeaderTwo btnStyle="round" HeaderSTyle="header-not-transparent" />
 
                 {/* Start Slider Area  */}
-                <div className="slider-area slider-style-1 bg-transparent height-850">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="inner text-center">
-                                    <span className="subtitle">CLOUD AI</span>
-                                    <h1 className="title theme-gradient display-two">An AI-Powered tool for <br />Cloud {" "}
-                                        <Typed
-                                            strings={[
-                                                "Architect",
-                                                "Engineer",
-                                                "Provider",
-                                            ]}
-                                            typeSpeed={80}
-                                            backSpeed={5}
-                                            backDelay={1000}
-                                            loop
-                                        />
-                                    </h1>
-                                    <p className="description">Cloud-AI helps to deploy and manage your cloud infrastructure via natural language.</p>
-                                    <div className="button-group">
-                                        <a className="btn-default btn-medium round btn-icon" target="_blank" href="https://themeforest.net/checkout/from_item/33571911?license=regular">Feature<i className="icon"><FiArrowRight /></i></a>
-                                        {/* <Link className="btn-default btn-medium btn-border round btn-icon" to="#contact-section">Contact Us <i className="icon"><FiArrowRight /></i></Link> */}
-                                        <ScrollLink 
-                                            to="contact" 
-                                            spy={true} 
-                                            smooth={true} 
-                                            offset={-70} 
-                                            duration={500} 
-                                            className="btn-default btn-medium btn-border round btn-icon"
-                                        >
-                                            Contact Us <i className="icon"><FiArrowRight /></i>
-                                        </ScrollLink>
+                <div id="business-consulting-2">
+                    <div className="slider-area slider-style-1 bg-transparent height-850">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-lg-12">
+                                    <div className="inner text-center">
+                                        <span className="subtitle">CLOUD AI</span>
+                                        <h1 className="title theme-gradient display-two">An AI-Powered tool for <br />Cloud {" "}
+                                            <Typed
+                                                strings={[
+                                                    "Architect",
+                                                    "Engineer",
+                                                    "Provider",
+                                                ]}
+                                                typeSpeed={80}
+                                                backSpeed={5}
+                                                backDelay={1000}
+                                                loop
+                                            />
+                                        </h1>
+                                        <p className="description">Cloud-AI helps to deploy and manage your cloud infrastructure via natural language.</p>
+                                        <div className="button-group">
+                                            <ScrollLink 
+                                                    to="feature" 
+                                                    spy={true} 
+                                                    smooth={true} 
+                                                    offset={-70} 
+                                                    duration={500} 
+                                                    className="btn-default btn-medium round btn-icon"
+                                                    style={{cursor: "pointer"}}
+                                            >
+                                                <span style={{ color: '#ffffff' }}>Feature<i className="icon" color=''><FiArrowRight /></i></span>
+                                            </ScrollLink>   
+                                            {/* <Link className="btn-default btn-medium btn-border round btn-icon" to="#contact-section">Contact Us <i className="icon"><FiArrowRight /></i></Link> */}
+                                            <ScrollLink 
+                                                to="contact" 
+                                                spy={true} 
+                                                smooth={true} 
+                                                offset={-70} 
+                                                duration={500} 
+                                                className="btn-default btn-medium btn-border round btn-icon"
+                                                style={{cursor: "pointer"}}
+                                            >
+                                                Contact Us <i className="icon"><FiArrowRight /></i>
+                                            </ScrollLink>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 {/* End Slider Area  */}
 
                 <Separator />
