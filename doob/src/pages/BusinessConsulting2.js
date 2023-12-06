@@ -55,7 +55,7 @@ const BusinessConsulting2 = () => {
                                                 loop
                                             />
                                         </h1>
-                                        <p className="description">Cloud-AI helps to deploy and manage your cloud infrastructure via natural language.</p>
+                                        <p className="description">Cloud-AI helps to deploy and manage your cloud infrastructure via multiple LLM agents and natural language</p>
                                         <div className="button-group">
                                             <ScrollLink 
                                                     to="feature" 

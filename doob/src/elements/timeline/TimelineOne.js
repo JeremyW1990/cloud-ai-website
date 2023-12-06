@@ -40,16 +40,55 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 const TimelineData = [
     {
+        "id": "0",
+        "title": "Components of Cloud-AI",
+        "description": [
+            "Admin Agent: Acts as the central command, orchestrating the activities of other agents and serving as a channel for human intervention when needed.",
+            "Agile Board Agent: Manages project tracking with systems like Jira, initiating and monitoring tasks.",
+            "Source Code Agent: Handles Infrastructure as Code repositories, particularly Terraform, updating code based on instructions from other agents.",
+            "Deployment Agent: Integrates with tools like Jenkins for code deployment, monitors processes, and identifies issues.",
+            "Monitoring Agent: Oversees system performance using tools like Datadog, and alerts other agents for necessary actions."
+        ],
+        "image": "Components",
+        "workingStep": []
+    },
+    {
+        "id": "6",
+        "title": "Deployment Agent: Intelligent Deployment Orchestrator",
+        "description": [
+            "Error Detection & Analysis: Monitors the CI/CD pipeline logs in real-time to detect errors and warnings. Utilizes reasoning trees to analyze issues and their potential causes.",
+            "Automated Code Improvement: The Deployment Agent continuously iterates the deployment based on the analysis of CI/CD logs until success is achieved. During this process, it communicates multiple times with the Source Code Agent, facilitating repeated trial and error and updates of the code.",
+            "Stateful Troubleshooting: Maintains state information about past errors and attempted solutions, enabling a systematic trial-and-error approach to resolving issues.",
+            "Continuous Learning Loop: Incorporates outcomes of deployments into its knowledge base, refining its reasoning and predictive capabilities for future CI/CD activities.",
+            "Dynamic Integration: Designed to seamlessly integrate with mainstream CI/CD tools like Jenkins, AWS CodeDeploy, and Harness, allowing for versatile and adaptive deployment strategies."
+        ],
+        "image": "timeline-06",
+        "workingStep": []
+    },
+    {
+        "id": "7",
+        "title": "Monitoring Agent: Proactive Infrastructure Watchdog",
+        "description": [
+            "Adaptive Response Mechanism: Determines the course of action for various scenarios ranging from auto-resolving minor issues to escalating to other agents for remediation cycles, until the alarm is resolved.",
+            "Real-Time Alarm Handling: Continuously scans logs from monitoring tools like Datadog, Splunk, and Prometheus to detect and classify alerts based on predefined severity levels.",
+            "Context-Aware Diagnostics: Employs an intelligent analysis to discern false alarms from genuine issues, informing the decision-making for responses.",
+            "Direct Interaction with Monitoring APIs: Capable of executing immediate corrective actions by interfacing with monitoring tool APIs, mitigating issues autonomously when appropriate.",
+            "Smart State Management: Keeps track of ongoing and past incidents to enhance diagnostic accuracy and response efficacy, while refining alert classification and prioritization processes."
+        ],
+        "image": "timeline-07",
+        "workingStep": []
+    },
+    {
         "id": "1",
         "title": "Read Terraform State Files from S3",
-        "description": "Stay on top of your cloud setup. Cloud-AI meticulously scans your entire terraform state file in S3, chunks the information, and embeds it, ensuring that relevant pieces can be mapped seamlessly in response to user queries.",
+        "description": "Stay on top of your cloud setup. The Source Code Agent meticulously scans your entire terraform state file in S3, chunks the information, and embeds it, ensuring that relevant pieces can be mapped seamlessly in response to user queries.",
         "image": "timeline-01",
         "workingStep": []
     },
     {
         "id": "2",
         "title": "Vectorize Your Entire Codebase",
-        "description": "Dive deep into your code. Cloud-AI sifts through your entire codebase, segmenting and embedding the data, allowing for pinpoint accuracy when locating relevant code snippets for user questions.",
+        "description": "Dive deep into your code. The Source Code Agent sifts through your entire codebase, segmenting and embedding the data, allowing for pinpoint accuracy when locating relevant code snippets for user questions.",
         "image": "timeline-02",
         "workingStep": []
     },
@@ -72,32 +111,6 @@ const TimelineData = [
         "title": "Learn from External Webpages",
         "description": "Feed new knowledge to your LLM on the go. Provide a URL, and Cloud-AI will download the content, allowing the model to learn and deliver the most current answers.",
         "image": "timeline-05",
-        "workingStep": []
-    },
-    {
-        "id": "6",
-        "title": "CI/CD Agent: Intelligent Deployment Orchestrator (developing)",
-        "description": [
-            "Error Detection & Analysis: Monitors the CI/CD pipeline logs in real-time to detect errors and warnings. Utilizes reasoning trees to analyze issues and their potential causes.",
-            "Automated Code Improvement: Proposes code updates or changes through Cloud-AI in response to detected pipeline issues, supporting a self-healing deployment process.",
-            "Stateful Troubleshooting: Maintains state information about past errors and attempted solutions, enabling a systematic trial-and-error approach to resolving issues.",
-            "Continuous Learning Loop: Incorporates outcomes of deployments into its knowledge base, refining its reasoning and predictive capabilities for future CI/CD activities.",
-            "Dynamic Integration: Designed to seamlessly integrate with mainstream CI/CD tools like Jenkins, AWS CodeDeploy, and Harness, allowing for versatile and adaptive deployment strategies."
-        ],
-        "image": "timeline-06",
-        "workingStep": []
-    },
-    {
-        "id": "7",
-        "title": "Monitoring Agent: Proactive Infrastructure Watchdog (developing)",
-        "description": [
-            "Real-Time Alarm Handling: Continuously scans logs from monitoring tools like Datadog, ArgoCD, and Prometheus to detect and classify alerts based on predefined severity levels.",
-            "Context-Aware Diagnostics: Employs an intelligent analysis to discern false alarms from genuine issues, informing the decision-making for responses.",
-            "Direct Interaction with Monitoring APIs: Capable of executing immediate corrective actions by interfacing with monitoring tool APIs, mitigating issues autonomously when appropriate.",
-            "Adaptive Response Mechanism: Determines the course of action for various scenarios ranging from auto-resolving minor issues to escalating critical problems to the development team.",
-            "Smart State Management: Keeps track of ongoing and past incidents to enhance diagnostic accuracy and response efficacy, while refining alert classification and prioritization processes."
-        ],
-        "image": "timeline-07",
         "workingStep": []
     }
 ]
